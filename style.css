@@ -12,7 +12,7 @@
 .keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: 12px;
     padding: 10px;
     margin:auto;
 }
@@ -41,7 +41,8 @@
     border-color: #b0353a;
     color: #fff;
     width: 80px;
-    height: 30px;  
+    height: 40px;  
+
 }
 .clear:hover {
     background-color: #f17377;
@@ -59,7 +60,7 @@
     justify-content: left;
     color: black;
     font-size: medium;
-    width: 50%;
+    width: 100%;
     height: 30%;
     cursor: default;
     padding: 10px; 
@@ -68,6 +69,10 @@
     margin-bottom: 10px;
 }
 .title {
-    
-    
+		border: 1px solid #cccccc;
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    position: absolute;
+		
+		font-size: 85px;
 }
